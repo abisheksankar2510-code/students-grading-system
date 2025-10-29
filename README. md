@@ -1,0 +1,24 @@
+# 🎓 Students Grading System
+
+## 📌 Overview
+A simple web app that allows teachers or students to calculate grades based on marks and display results in a table format.
+
+## 🧠 Features
+- Enter student name and marks
+- Automatically calculate grade
+- Display all results neatly in a table
+
+## ⚙️ Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+
+## 🚀 Deployment
+This project is deployed via **GitHub Pages**.
+
+## 🔗 Live Demo
+👉 [https://abisheksankar2510-code.github.io/students-grading-system/](https://abisheksankar2510-code.github.io/students-grading-system/)
+
+---
+
+**Author:** MAYILSAMY

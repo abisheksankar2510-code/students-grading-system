@@ -1,0 +1,21 @@
+document.getElementById("gradeForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  
+  const name = document.getElementById("name").value;
+  const mark = parseFloat(document.getElementById("mark").value);
+  let grade = "";
+
+  if (mark >= 90) grade = "A+";
+  else if (mark >= 80) grade = "A";
+  else if (mark >= 70) grade = "B";
+  else if (mark >= 60) grade = "C";
+  else if (mark >= 50) grade = "D";
+  else grade = "F";
+
+  const table = document.querySelector("#gradeTable tbody");
+  const row = document.createElement("tr");
+  row.innerHTML = `<td>${name}</td><td>${mark}</td><td>${grade}</td>`;
+  table.appendChild(row);
+
+  document.getElementById("gradeForm").reset();
+});
